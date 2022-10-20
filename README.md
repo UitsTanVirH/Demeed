@@ -19,15 +19,15 @@ git add .
 $ git commit -m <commit msg>
 
 $ git fetch
-$ git rebase origin/develop
+$ git rebase origin/main
 
 $ git push --force-with-lease origin <your branch>
 
-$ git pull --rebase origin develop
+$ git pull --rebase origin main
 
 $ git fetch
-$ git merge origin/develop
-$ git pull origin develop
+$ git merge origin/main
+$ git pull origin main
 
 
 ```
